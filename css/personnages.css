@@ -1,0 +1,57 @@
+body {
+    background-color: #163222;
+}
+
+
+  /*MOBILE FIRST*/
+  @media screen and (max-width: 700px) {
+    h1{
+        font-size: 50px;
+    }
+    p {
+      font-size: 25px;
+    }
+    #images{
+        display: flex;
+        width: 80%;
+        max-width: 1300px;
+        margin: 30px auto 0;
+        flex-wrap: wrap;
+        justify-content: center
+    }
+  
+    img{
+        margin: 10px;
+    }
+  }
+  @media screen and (max-width: 378px) {
+    h1{
+        font-size: 37px;
+      
+    }
+    p {
+      font-size: 25px;
+    }
+    #images{
+        display: flex;
+        width: 80%;
+        max-width: 1300px;
+        margin: 30px auto 0;
+        flex-wrap: wrap;
+        justify-content: center
+    }
+  
+    img{
+        margin: 9px;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    h1{
+        font-size: 20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    p{
+      font-size: 15px;
+    }
+  
+  }
